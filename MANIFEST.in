@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include prismss_addon *.css
+recursive-include prismss_addon *.csv
+recursive-include prismss_addon *.html
+recursive-include prismss_addon *.ico
+recursive-include prismss_addon *.js
+recursive-include prismss_addon *.json
+recursive-include prismss_addon *.md
+recursive-include prismss_addon *.png
+recursive-include prismss_addon *.py
+recursive-include prismss_addon *.svg
+recursive-include prismss_addon *.txt
+recursive-exclude prismss_addon *.pyc
